@@ -9,7 +9,9 @@ Ce guide est destiné à notre groupe pour l'annotation des images d'avions de c
 ### 🐧 Sur Linux (Ubuntu/Debian)
 1. **Ouvrez votre terminal et préparez l'environnement :**
    ```bash
-   sudo apt update
+   sudo apt update && sudo apt upgrade -y
+   sudo apt install python3 python3-pip python3-venv -y
+   mkdir label-studio && cd label-studio
    python3 -m venv ls_env
    source ls_env/bin/activate
    ```
