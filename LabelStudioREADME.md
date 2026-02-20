@@ -24,9 +24,7 @@ Ce guide est destiné à notre groupe pour l'annotation des images d'avions de c
 ### 🪟 Sur Windows
 1. **Prérequis :** Installez Python via [python.org](https://www.python.org/) (n'oubliez pas de cocher **"Add Python to PATH"**).
 2. **Ouvrez PowerShell ou CMD et tapez :**
-   ```powershell
-   python -m venv ls_env
-   .\ls_env\Scripts\activate
+   ```bash
    pip install label-studio
    label-studio
    ```
@@ -44,7 +42,7 @@ Ce guide est destiné à notre groupe pour l'annotation des images d'avions de c
    * Cliquez sur **Browse Templates**.
    * Choisissez **Computer Vision** -> **Object Detection with Bounding Boxes**.
    * Dans la partie droite (Visual), supprimez les labels par défaut.
-   * Ajoutez exactement ces 3 labels :
+   * ⚠️ Ajoutez **EXACTEMENT** ces 3 labels :
      * `F35`
      * `Su35`
      * `Rafale`
@@ -73,6 +71,6 @@ En attendant le retour du professeur sur le format final (YOLO ou autre), nous a
 1. Allez sur la page principale du projet.
 2. Cliquez sur le bouton **Export** en haut à droite.
 3. Sélectionnez le format **CSV**.
-4. Téléchargez le fichier et gardez-le précieusement.
+4. Pushez le fichier sur le gitHub dans `dataset/Save/prenom.csv`.
 
 ---
