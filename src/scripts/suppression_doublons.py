@@ -6,7 +6,7 @@ import os
 hashes = {}
 duplicates = []
 
-folderPath = "../dataset/Images/F35"
+folderPath = "./dataset/Images/Rafale"
 
 # 2. Parcourir le dossier
 for filename in os.listdir(folderPath):
