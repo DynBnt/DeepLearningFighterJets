@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['F35', 'Rafale', 'Su35']
+
+roboflow:
+  workspace: workspace-vfu9l
+  project: workspace-vfu9l
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/workspace-vfu9l/workspace-vfu9l/dataset
